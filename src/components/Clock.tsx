@@ -17,9 +17,9 @@ export default function Clock() {
   const mm = String(time.getMinutes()).padStart(2, "0");
   const ss = String(time.getSeconds()).padStart(2, "0");
 
-  const digitSize = "min(16vw, 14rem)";
-  const colonSize = "min(10vw, 8.5rem)";
-  const secSize = "min(7vw, 6rem)";
+  const digitSize = "min(19.2vw, 16.8rem)";
+  const colonSize = "min(12vw, 10.2rem)";
+  const secSize = "min(8.4vw, 7.2rem)";
 
   return (
     <div
