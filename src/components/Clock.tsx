@@ -24,7 +24,7 @@ export default function Clock() {
   return (
     <div
       className="flex items-baseline justify-center font-light tracking-tight select-none leading-[0.85] text-white/90"
-      style={{ fontFeatureSettings: "'tnum' 1" }}
+      style={{ fontFamily: "var(--font-outfit)", fontFeatureSettings: "'tnum' 1" }}
     >
       <span style={{ fontSize: digitSize }}>{h}</span>
       <span
